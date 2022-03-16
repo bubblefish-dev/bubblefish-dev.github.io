@@ -57,6 +57,7 @@ nav {
 }
 
 main {
+    width: calc(100% - var(--nav-size));
     color: var(--text);
     overflow: hidden;
 }
