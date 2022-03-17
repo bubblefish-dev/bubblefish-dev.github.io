@@ -100,7 +100,7 @@ header > h1 > .icon {
     height: var(--dimmensions);
 }
 
-footer {
+section {
     background-color: var(--background);
     position: relative;
     width: 100%;
@@ -109,7 +109,7 @@ footer {
     overflow-y: hidden;
 }
 
-footer > div {
+section > div {
     width: 100%;
     height: calc(100% - 1rem);
     display: flex;
@@ -120,14 +120,14 @@ footer > div {
     overflow-y: auto;
 }
 
-main > footer {
+main > section {
     width: calc(100% - 1rem);
     height: calc(100% - 3rem);
     padding: 0 0.5rem;
     overflow-y: auto;
 }
 
-main > footer::after {
+main > section::after {
     content: '';
     display: block;
     height: 1rem;
