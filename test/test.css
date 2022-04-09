@@ -24,7 +24,7 @@ aside {
     position: fixed;
     display: block;
     background-color: yellow;
-    width: 18rem;
+    width: min(100vw, 18rem);
     height: 100vh;
     z-index: 1;
     left: -18rem;
