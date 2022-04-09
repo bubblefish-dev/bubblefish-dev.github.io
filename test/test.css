@@ -28,9 +28,12 @@ aside {
     height: 100vh;
     z-index: 1;
     left: -18rem;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 main {
+    transition: left 400ms;
     position: fixed;
     display: block;
     background-color: blue;
@@ -38,8 +41,29 @@ main {
     height: calc(100vh - 3rem);
     top: 3rem;
     z-index: 0;
+    left: 0;
+    overflow: auto;
 }
 
 body.toggled aside {
     left: 0;
+}
+
+body.toggled main {
+    left: 18rem;
+}
+
+main > .top {
+    display: block;
+    background-color: brown;
+}
+
+main > .mid {
+    display: block;
+    background-color: aqua;
+}
+
+main > .bottom {
+    display: block;
+    background-color: yellowgreen;
 }
