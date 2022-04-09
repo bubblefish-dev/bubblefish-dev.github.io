@@ -7,7 +7,10 @@ body {
 }
 
 html {
-    min-height: 100vh;
+    position: relative; 
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -44,6 +47,7 @@ main {
     left: 0;
     overflow-x: hidden;
     overflow-y: auto;
+    bottom: 0;
 }
 
 body.toggled aside {
