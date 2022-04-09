@@ -42,7 +42,8 @@ main {
     top: 3rem;
     z-index: 0;
     left: 0;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 body.toggled aside {
@@ -53,17 +54,7 @@ body.toggled main {
     left: 18rem;
 }
 
-main > .top {
-    display: block;
-    background-color: brown;
-}
-
-main > .mid {
-    display: block;
-    background-color: aqua;
-}
-
-main > .bottom {
-    display: block;
-    background-color: yellowgreen;
+main > div {
+    background-color:brown;
+    margin: 0.5rem;
 }
