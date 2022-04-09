@@ -1,0 +1,36 @@
+body {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+html {
+    min-height: 100vh;
+}
+
+nav {
+    position: fixed;
+    display: block;
+    background-color: red;
+    width: 100vw;
+    height: 3rem;
+}
+
+aside {
+    position: fixed;
+    display: block;
+    background-color: yellow;
+    width: 18rem;
+    height: calc(100vh - 3rem);
+}
+
+main {
+    position: fixed;
+    display: block;
+    background-color: blue;
+    width: 100vw;
+    height: calc(100vh - 3rem);
+    top: 3rem;
+}
