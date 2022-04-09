@@ -33,7 +33,7 @@ aside {
 }
 
 main {
-    transition: left 400ms;
+    transition: left 400ms, width 400ms;
     position: fixed;
     display: block;
     background-color: blue;
@@ -59,7 +59,7 @@ main > div {
     margin: 0.5rem;
 }
 
-@media only screen and (max-width: 40rem) {
+@media only screen and (min-width: 40rem) {
     body.toggled main {
         width: calc(100vw - 18rem);
     }
