@@ -1,0 +1,24 @@
+body {
+    margin: 0,
+    padding: 0,
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+article {
+    background-color: rgb(200 200 255 / 1);
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: min(100vw, 40rem);
+}
+
+img {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / .5);
+}
